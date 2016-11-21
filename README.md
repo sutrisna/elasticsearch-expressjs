@@ -3,10 +3,12 @@ Integrasi elasticsearch di Express JS
 
 ###Install elasticsearch
 - Download elasticsearch
-```https://www.elastic.co/downloads/elasticsearch
+```bash
+https://www.elastic.co/downloads/elasticsearch
 ```
 - Extract teru masuk ke path
-```elasticseacrh[version]/bin
+```bash
+elasticseacrh[version]/bin
 ```
 - Running lewat cmd
 ```$elasticsearch
@@ -25,6 +27,7 @@ $ npm install
 - Running aplikasi:
 ```bash
 $ node bin/www
+```
 
 ### Explore lebih lanjut kunjungi 
 https://www.elastic.co/
