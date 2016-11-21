@@ -15,13 +15,8 @@ elasticseacrh[version]/bin
 elasticsearch[version]\bin>elasticsearch
 ```
 - Anda juga bisa setting elastichseacrh as service jadi gak ribet nyalain service berkali-kali
-```bash
-Masuk ke path elasticsearch[version]\bin>elasticsearch
-buka cmd lalu ketikan elasticseacrh-service install
-Jika muncul error "configure using -Xss" bla..bla..bla..
-buka dulu jvm.options terus tambahkan -Xss1m
-lalu ketik ulang elasticseacrh-service install
-```
+
+Masuk ke path `elasticsearch[version]\bin>elasticsearch` buka cmd lalu ketikan `elasticseacrh-service install` Jika muncul error `"configure using -Xss"` bla..bla..bla.. buka dulu `jvm.options` terus tambahkan `-Xss1m` lalu ketik ulang `elasticseacrh-service install`
 
 # Install ExpressJS
 - Clone this project:
